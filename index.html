@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <div style="width: 70%;float: left;">
+
+        <h4>2014</h4>
+        <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+
+                  {{ post.title }}
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div style="width: 30%; float: left;">
+
+        <ul class="post-list-mini">
+        {% for link in site.data.links  %}
+          <li>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+
+                  {{ link.authors }}
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+        <h4>Kolekcje</h4>
+        <ul class="post-list-mini">
+
+
+            <h4>Prezentacje</h4>
+        {% for presentation in site.presentations  %}
+          <li>
+              <a class="post-link" href="{{ presentation.url  }}">
+
+                  {{ presentation.title }}
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+        <ul class="post-list-mini">
+
+
+            <h4>Blogi</h4>
+        {% for blog in site.blogs  %}
+          <li>
+              <a class="post-link" href="{{ blog.url  }}">
+                  {{ blog.title }}
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+
+
+</div>
