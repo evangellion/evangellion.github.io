@@ -7,13 +7,13 @@ permalink: /day-by-day/
 14.09.2014
 ==========
 
+
 [http://www.trzeciakawa.pl/?p=1179 Dlaczego Scrum nie działa?]
 
 Wnioski:
 
 Surum nie jest dla wszystkich, niektrzy lepiej wykonuja zadania pracujac samotnie
 usi trafic na wlasciwych ludzi
-
 
 
 13.09.2014
