@@ -1,0 +1,28 @@
+---
+layout: page
+title:  "AngularJS"
+description:  "style guide, materiały do nauki"
+tag: angular, js, frontend
+---
+
+
+### Rozpracowywanie AngularJS
+
+* [Style Guide](https://github.com/johnpapa/angularjs-styleguide) -
+*ważny temat zwłaszcza wynikający ze swobody jaką oferuje Angular*
+    * struktura katalogów nastawiona na feature [[more >>]](https://github.com/johnpapa/angularjs-styleguide#application-structure-lift-principle)
+    * odseparowanie logki biznesowej od frameworka  [[more >>]](https://github.com/johnpapa/angularjs-styleguide#single-responsibility)
+* [Materiały - AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning)
+
+
+### Komunikacja w AngularJS
+
+Testuje rozwiąznia oparte o architekturę REST.
+
+* ORM
+    * Restangular
+    * angular-data
+* ngResources
+* $http
+
+Wniosek na dziś: lepiej zacząć do *ngResource*, zwłaszcza w większych projektach.

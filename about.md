@@ -7,7 +7,7 @@ permalink: /about/
 Kacper Cyran
 ============
 
-Developer, mieszkniec Gliwic
+Developer, mieszkaniec Gliwic
 
 Pracuje z: PHP, HTML, CSS/LESS, JS
 

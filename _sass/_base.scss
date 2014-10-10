@@ -108,14 +108,26 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+
+  background: lighten($grey-color-light,5%);
+    padding-left: $spacing-unit ;
+    padding-right: $spacing-unit ;
+  padding-top: 10px;
+  padding-bottom: 10px;
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
-
+  margin-bottom: 15px;
     > :last-child {
         margin-bottom: 0;
     }
+  .author {
+    margin-top: 10px;
+    float: right;
+    display: block;
+    color: $brand-color;
+    font-size: 0.8em;
+  }
 }
 
 
